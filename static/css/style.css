@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f6efe7;
+    color: #3b2f2f;
+}
+
+/* TOP TITLE (if you use separate heading) */
+.top-title {
+    text-align: center;
+    padding: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #6b3f2a;
+    background: #fff2e6;
+    border-bottom: 2px solid #d7b89c;
+}
+
+/* NAVBAR */
+nav {
+    background: linear-gradient(90deg, #8b5e3c, #a97142);
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffe0b3;
+}
+
+/* HERO SECTION FIXED */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    gap: 40px;
+}
+
+/* TEXT SIDE */
+.hero-content {
+    width: 50%;
+}
+
+/* "WELCOME" TITLE INSIDE HERO */
+.hero-title {
+    font-size: 24px;
+    color: #8b5e3c;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    color: #6b3f2a;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #5a4638;
+}
+
+/* IMAGE SMALL & CLEAN */
+.hero-image img {
+    width: 240px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    background: #a97142;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #8b5e3c;
+}
+
+/* FEATURES */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+}
+
+.card {
+    width: 250px;
+    background: #fffaf5;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+/* FORM */
+.form-container {
+    width: 450px;
+    margin: 40px auto;
+    background: #fffaf5;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #6b3f2a;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #d7b89c;
+    border-radius: 5px;
+}
+
+/* GENDER */
+.gender {
+    margin-top: 10px;
+}
+
+.gender label {
+    margin-right: 20px;
+    color: #5a4638;
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #a97142;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #8b5e3c;
+}
+
+/* TABLE */
+.table-container {
+    width: 80%;
+    margin: 40px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fffaf5;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+table th {
+    background: #8b5e3c;
+    color: white;
+    padding: 15px;
+}
+
+table td {
+    padding: 15px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #f3e6db;
+}
+
+tr:hover {
+    background: #ead3c0;
+}
+
+/* ABOUT */
+.about-container {
+    width: 80%;
+    margin: 40px auto;
+    background: #fffaf5;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+}
+
+.about-container img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
